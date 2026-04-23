@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    This project file targets multiple platforms using the single project
+    approach available in .NET MAUI.  The `UseMaui` property enables
+    MAUI features such as XAML compilation and multi‑targeting.  Only
+    Windows and Android are targeted in this reference implementation,
+    but additional frameworks (iOS, MacCatalyst) could be added.
+  -->
+  <PropertyGroup>
+    <!-- Target frameworks: Android and Windows 10 (build 19041) -->
+    <TargetFrameworks>net8.0-android;net8.0-windows10.0.19041.0</TargetFrameworks>
+    <UseMaui>true</UseMaui>
+    <SingleProject>true</SingleProject>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Module7SignupProfile</RootNamespace>
+  </PropertyGroup>
+
+  <!--
+    MAUI uses item groups to include resources such as images and fonts.
+    This reference implementation does not provide additional assets, but the
+    groups remain in place for extensibility and to ensure the project
+    compiles cleanly if additional resources are added later.
+  -->
+  <ItemGroup>
+    <!-- You can include images by adding them to the Resources/Images folder
+         and adding the following line: -->
+    <!-- <MauiImage Include="Resources\\Images\\**\\*.*" /> -->
+
+    <!-- You can include fonts by adding them to the Resources/Fonts folder
+         and defining aliases like this: -->
+    <!-- <MauiFont Include="Resources\\Fonts\\OpenSans-Regular.ttf" Alias="OpenSansRegular" /> -->
+  </ItemGroup>
+
+</Project>
