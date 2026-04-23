@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Module7SignupProfile.Views.SignupPage"
+    Title="Sign Up"
+    BackgroundColor="White">
+
+    <!-- Wrap the content in a ScrollView to ensure it lays out properly on
+         smaller screens and on devices with virtual keyboards. -->
+    <ScrollView>
+        <VerticalStackLayout Padding="40" Spacing="20">
+            <Label Text="Create an Account"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <!-- Username input -->
+            <Entry x:Name="UsernameEntry"
+                   Placeholder="Username"
+                   Keyboard="Text" />
+
+            <!-- Email input -->
+            <Entry x:Name="EmailEntry"
+                   Placeholder="Email"
+                   Keyboard="Email" />
+
+            <!-- Password input -->
+            <Entry x:Name="PasswordEntry"
+                   Placeholder="Password"
+                   IsPassword="True" />
+
+            <!-- Confirm password input -->
+            <Entry x:Name="ConfirmPasswordEntry"
+                   Placeholder="Confirm Password"
+                   IsPassword="True" />
+
+            <!-- Error message -->
+            <Label x:Name="ErrorLabel"
+                   TextColor="Red"
+                   IsVisible="False"
+                   LineBreakMode="WordWrap" />
+
+            <!-- Sign up button -->
+            <Button Text="Sign Up"
+                    FontAttributes="Bold"
+                    Clicked="OnSignUpClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
