@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Module7SignupProfile.App">
+
+    <!--
+        Define global application resources here.  Styles defined in this
+        section are available throughout the entire app.  For a simple
+        sign‑up application the built‑in styles are sufficient, so this
+        dictionary remains empty.  When extending the UI, consider adding
+        styles for margins, fonts and colors here.
+    -->
+    <Application.Resources>
+        <!-- Application resource dictionary -->
+    </Application.Resources>
+
+</Application>
