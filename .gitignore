@@ -1,0 +1,9 @@
+# Ignore build outputs
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.userosscache
+*.sln.docstates
+.vs/
